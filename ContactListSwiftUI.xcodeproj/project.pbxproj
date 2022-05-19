@@ -11,6 +11,11 @@
 		A5A871322836B7E700C9558D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A871312836B7E700C9558D /* ContentView.swift */; };
 		A5A871342836B7E800C9558D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A871332836B7E800C9558D /* Assets.xcassets */; };
 		A5A871372836B7E800C9558D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A871362836B7E800C9558D /* Preview Assets.xcassets */; };
+		A5A8713F2836B81000C9558D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8713E2836B81000C9558D /* Person.swift */; };
+		A5A871422836B83200C9558D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A871412836B83200C9558D /* DataManager.swift */; };
+		A5A871442836C5A300C9558D /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A871432836C5A300C9558D /* ContactsView.swift */; };
+		A5A871462836CD8B00C9558D /* DetailedInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A871452836CD8B00C9558D /* DetailedInfoView.swift */; };
+		A5A871482836D63700C9558D /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A871472836D63700C9558D /* NumbersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		A5A871312836B7E700C9558D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A5A871332836B7E800C9558D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A871362836B7E800C9558D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5A8713E2836B81000C9558D /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A5A871412836B83200C9558D /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A5A871432836C5A300C9558D /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		A5A871452836CD8B00C9558D /* DetailedInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedInfoView.swift; sourceTree = "<group>"; };
+		A5A871472836D63700C9558D /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				A5A8712F2836B7E700C9558D /* ContactListSwiftUIApp.swift */,
 				A5A871312836B7E700C9558D /* ContentView.swift */,
+				A5A871432836C5A300C9558D /* ContactsView.swift */,
+				A5A871472836D63700C9558D /* NumbersView.swift */,
+				A5A871452836CD8B00C9558D /* DetailedInfoView.swift */,
+				A5A871402836B83200C9558D /* Services */,
+				A5A8713D2836B81000C9558D /* Models */,
 				A5A871332836B7E800C9558D /* Assets.xcassets */,
 				A5A871352836B7E800C9558D /* Preview Content */,
 			);
@@ -65,6 +80,22 @@
 				A5A871362836B7E800C9558D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5A8713D2836B81000C9558D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5A8713E2836B81000C9558D /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5A871402836B83200C9558D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A5A871412836B83200C9558D /* DataManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A8713F2836B81000C9558D /* Person.swift in Sources */,
+				A5A871422836B83200C9558D /* DataManager.swift in Sources */,
 				A5A871322836B7E700C9558D /* ContentView.swift in Sources */,
+				A5A871442836C5A300C9558D /* ContactsView.swift in Sources */,
+				A5A871482836D63700C9558D /* NumbersView.swift in Sources */,
 				A5A871302836B7E700C9558D /* ContactListSwiftUIApp.swift in Sources */,
+				A5A871462836CD8B00C9558D /* DetailedInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
